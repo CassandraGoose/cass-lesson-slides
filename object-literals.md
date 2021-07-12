@@ -5,6 +5,10 @@ At the end of this lesson, you should be able to:
 - identify scenarios that require bracket notation
 - access and create key value pairs on complex data types
 
+Notes:
+go over some norms
+questions, curriculum lesson vs this, roster, cold calls
+
 ---
 
 ### Vocab review: 
@@ -46,10 +50,8 @@ Bracket Notation
 
 - Any expression can go inside the brackets
 <!-- .element: class="fragment" -->
-
 - JavaScript will evaluate what's inside the brackets before trying to create or access a key
 <!-- .element: class="fragment" -->
-
 - Knowing this, what might be a use case for using bracket notation? 
 <!-- .element: class="fragment" -->
 
@@ -111,7 +113,6 @@ His breed is Pug
 Notes: 
 there are several ways to do this:
 
-```
 const dog = {
   name: 'Boris',
   age: 3,
@@ -126,7 +127,6 @@ console.log('I have a dog and...');
 for (let i = 0; i < dogDetails.length; i++) {
   console.log(`His ${dogDetails[i]} is ${dog[dogDetails[i]]}`);
 }
-```
 
 ---
 Review!
@@ -147,6 +147,8 @@ BTW: It would be helpful to read up on the following Object methods:
 - Object.values()
 - Object.entries()
 - Object.assign()
+
+Notes: remind them about the attendance thread in the afternoon
 
 ---
 
